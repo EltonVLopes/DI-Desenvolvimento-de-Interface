@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <!-- Comando para criar tabelas -->
+<center><font face="Arial Black" size="5" color="green">Tabelas</font></center>
+
+<h1>Tabela-1</h1>
+<table border="1">
+    <!-- Linha 1 -->
+     <tr>
+        <th>Itens/mes</th>
+        <th>Janeiro</th>
+        <th>Fevereiro</th>
+        <th>Março</th>
+     </tr>
+     <!-- Linha 2 -->
+     <tr>
+        <th>Usuarios</th>
+        <td>50</td>
+        <td>40</td>
+        <td>80</td>
+     </tr>
+     <!-- Linha 3 -->
+     <tr>
+        <th>Linhas</th>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+     </tr>
+</table>
+
+<h1>Tabela-2</h1>
+<table border="1">
+    <tr>
+    <td>Primeira Celula</td>
+    <td>Segunda Celula</td>
+    <td>Terceira Celula</td>
+</tr>
+<tr>
+    <td align="center">Centro</td>
+    <td align="left">Esquerda</td>
+    <td align="right">Direita</td>
+</tr>
+</table>
+
+<h1>Tabela-3</h1>
+<table border="1" style="background-color: peru; padding: 10px; margin: 10px;" width="100" height ="50" cellispacing="10" cellpadding="10" ;>
+    <tr>
+        <td>Teste para alinhamento <br>
+            com relação ás bordas <br>
+            inferior e superior.
+        </td>
+        <td valign="top">TOP</td>
+        <td valign="middle">MIDDLE</td>
+        <td valign="bottom">BOTTOM</td>
+    </tr>
+
+</table>
+
+<h1>Tabela-4</h1>
+<!-- Sem colspan -->
+<table border="3">
+    <tr>
+        <td>3 colunas</td>
+        <td>Normal</td>
+        <td>Normal</td>
+    </tr>
+    <tr>
+        <td>col 1</td>
+        <td>col 2</td>
+        <td>col 3</td>
+        <td>col 4</td>
+        <td>col 5</td>
+    </tr>
+
+
+</table>
+<!-- Com colspan (Mescla as linhas) -->
+<table border="3">
+    <tr>
+        <td colspan="3">3 colunas</td>
+        <td>Normal</td>
+        <td>Normal</td>
+    </tr>
+    <tr>
+        <td>col 1</td>
+        <td>col 2</td>
+        <td>col 3</td>
+        <td>col 4</td>
+        <td>col 5</td>
+    </tr>
+
+
+</table>
+
+<!-- Sem rowspan -->
+<h1>Tabela-5</h1>
+<table border="2">
+    <!-- Linha 1 -->
+    <tr>
+        <td>3 linhas</td>
+        <td>col 2</td>
+        <td>col 3</td>
+        <td>col 4</td>
+        <td>col 5</td>
+    </tr>
+    <!-- Linha 2 -->
+    <tr>
+        <td>col 2</td>
+        <td>col 3</td>
+        <td>col 4</td>
+        <td>col 5</td>
+    </tr>
+    <!-- Linha 3 -->
+    <tr>
+        <td>col 2</td>
+        <td>col 3</td>
+        <td>col 4</td>
+        <td>col 5</td>
+    </tr>
+</table>
+
+<!-- Com rowspan -->
+<table border="2">
+    <!-- Linha 1 -->
+    <tr>
+        <td rowspan="3">3 linhas</td>
+        <td>col 2</td>
+        <td>col 3</td>
+        <td>col 4</td>
+        <td>col 5</td>
+    </tr>
+    <!-- Linha 2 -->
+    <tr>
+        <td>col 2</td>
+        <td>col 3</td>
+        <td>col 4</td>
+        <td>col 5</td>
+    </tr>
+    <!-- Linha 3 -->
+    <tr>
+        <td>col 2</td>
+        <td>col 3</td>
+        <td>col 4</td>
+        <td>col 5</td>
+    </tr>
+</table>
+
+</body>
+</html>
