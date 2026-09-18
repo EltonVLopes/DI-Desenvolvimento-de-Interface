@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h3>Campo de Texto</h3>
+    <form action="mailto:elton.lopes@sempreceub.com" method="post">
+        <!-- post lento e seguro, get rapido e menos seguro -->
+
+        <fieldset id="nome">
+            <legend>Campo de nome</legend>
+            <label for="Cnome">Qual o seu nome?</label>
+            <input type="text" name="NNome" id="nome_id" size="15" maxlength="30" placeholder="Digite aqui animal">
+
+        </fieldset>
+    <hr noshade="" size="10">
+    
+    <h3>Campo de senha</h3>
+    <fieldset id="senha">
+        <legend>Campo de senha</legend>
+        informe sua senha: <input type="password" name="Nsenha" id="senha_id" size="10" maxlength="8" placeholder="Senha aqui">
+
+    </fieldset>
+<hr noshade="" size="10">
+
+<h3>Botões de limpar e Enviar formulario</h3>
+Nome: <input type="text" name="NNome" id="nome_id">
+<br>
+<br>
+<input type="reset" name="NReset" id="reset_id" value="Limpar">
+<input type="submit" name="NEnviar" id="enviar_id" value="Enviar">
+
+<hr noshade="" size="10">
+
+<h3>Campo de marcar opções - checkbox</h3>
+<fieldset>
+    <legend>Campo de opções</legend>
+    <p><input type="checkbox" name="NBoletim" id="boletim_id">Sim, eu desejo receber o boletim de noticias.</p>
+    <p><input type="checkbox" name="TBoletim" id="boletim_id2">Sim, eu gostaria de receber mais informações turisticas</p>
+    <input type="reset" name="NReset2" id="reset_id2" value="Limpar">
+    <input type="submit" name="NEnviar" id="enviar_id2" value="Enviar">
+</fieldset>
+
+<hr noshade="" size="10">
+<h3>Campo de opções - radio</h3>
+<fieldset>
+    <legend>Preferencias de viagem</legend>
+    <dl>
+        <dd>Classe o bilhete
+            <input type="radio" name="classe" id="eco"> Econômica
+            <input type="radio" name="classe" id="exe"> Executiva
+            <input type="radio" name="classe" id="prim"> Primeira Classe
+        </dd>
+        <dd>Localização
+            <input type="radio" name="local" id="frente"> Área Fumante
+            <input type="radio" name="local" id="tras"> Não Área Fumante
+
+        </dd>
+
+    </dl>
+
+</fieldset>
+
+    </form>
+
+
+
+
+</body>
+</html>
