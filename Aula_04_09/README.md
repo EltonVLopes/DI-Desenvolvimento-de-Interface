@@ -2,7 +2,7 @@
 
 ## 📖 Conteúdo
 
-Nesta aula foram realizados **exercícios com base nos conteúdos apresentados na aula anterior**.
+Nesta aula foram realizados **exercícios com base nos conteúdos apresentados na aula anterior (28/08)**.
 
 Também foram introduzidos os conceitos de **tabelas em HTML**.
 
