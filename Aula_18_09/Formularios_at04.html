@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios at04 DI</title>
+</head>
+<body>
+    <h2>Formularios</h2>
+<table border="5" bordercolor="black">
+        </tr>
+            <td>
+                <form action="">
+                    <h2 align="center"><font color="purple">DESENVOLVIMENTO DE INTERFACE</font></h2>
+                    <label for="Cnome">Nome:</label>
+                    <input type="text" name="NNome" id="nome_id" size="30">
+                    <label for="Cemail">E-mail:</label>
+                    <input type="text" name="EEmail" id="Email_id" size="30"> <br>
+                    <label for="Ctel">Fone:</label>
+                    <input type="text" name="FFone" id="Fone_id" size="15">
+        
+    
+    <table border="1">
+        </tr>
+            <td>O que você está achando do<br> andamento do curso até agora?</td><br>
+            <td>Avalie o curso até agora; agora</td>
+        </tr>
+        </tr>
+            <td>
+            <input type="checkbox" name="op1" id="op1_id">Muito bom, sem comentários <br>
+            <input type="checkbox" name="op2" id="op2_id">Bom, sem comentários <br>
+            <input type="checkbox" name="op3" id="op3_id">Muito <br>
+            <input type="checkbox" name="op4" id="op4_id">Poderia ir mais rápido <br>
+            <input type="checkbox" name="op5" id="op5_id">Poderia ir mais devagar <br>
+            <input type="checkbox" name="op6" id="op6_id">Outra opinião. Qual? <br>
+            <input type="checkbox" name="op7" id="op7_id">
+            </td>
+        
+            <td>
+                <input type="radio" name="ope1" id="ope1_id">10++ <br>
+                <input type="radio" name="ope2" id="ope2_id">10 <br>
+                <input type="radio" name="ope3" id="ope3_id">9++ <br>
+                <input type="radio" name="ope4" id="ope4_id">8++ <br>
+                <input type="radio" name="ope5" id="ope5_id">7++ <br>
+                <input type="radio" name="ope6" id="ope6_id">Outra. Qual? <input type="text" name="ope7" id="ope7_id" size="5"> 
+            </td>
+        </tr>
+    </table>
+            <label for="com1">Deixe aqui seus comentários e críticas construtivas</label>
+            <textarea name="caixa1" id="caixa_id" rows="3" cols="50"></textarea> <br>  
+            <input type="reset" name="Nreset" id="reset_id" value="Limpar Campos">
+             <input type="submit" name="Nsubmit" id="submit_id" value="Enviar Dados"> 
+<br>
+        </form>
+         </td>
+    <tr>
+</table>
+
+
+<br> 
+<br> 
+<br> 
+    <form action="">
+        <fieldset id="identif_usuario">
+            <legend>Identificação de usuário</legend>
+            <label for="Cnome">Nome:</label>
+            <input type="text" name="NNome" id="nome_id" placeholder="Nome Completo"> <br>
+            <br>
+            <label for="Csenha">Senha:</label>
+            <input type="password" name="NSenha" id="senha_id" placeholder="Digite a senha" size="9"> <br>
+            <br>
+            <label for="Cemail">E-mail:</label>
+            <input type="text" name="Nemail" id="email_id" placeholder="Digite seu e-mail" size="20">
+        
+            <fieldset id="sexo">
+                <legend>Sexo</legend>
+                <input type="radio" name="mas" id="mas_id">Masculino <br>
+                <input type="radio" name="Fem" id="fem_id">Feminino
+            </fieldset>
+            <br>
+            <label for="Cdata">Data de Nascimento</label>
+            <input type="date" name="dt_nascimento" id="dt_nascimento_id">
+
+        </fieldset>
+        
+        <fieldset id="endereco">
+            <legend>Endereço</legend>
+            <label for="logradouro">Logradouro:</label>
+            <input type="text" name="logra" id="logra_id" placeholder="Rua,Av,Bairro"> <br> <br>
+            <label for="numero">Número:</label>
+            <input type="text" name="num" id="num_id"> <br> <br>
+            <label for="estado">Estado:</label>
+            <select name="estado" id="estado_id">
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="CE">Ceará</option>
+            </select> 
+            <br> <br>
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" id="cidade_id" placeholder="Sua cidade">
+        </fieldset>
+        <fieldset id="mensagem_usuario">
+            <legend>Mensagem do Usuário</legend>
+            <label for="Grau_urgencia">Grau de urgência: Min</label>
+            <input type="range" name="grau" id="grau_urgencia" min="0" max="100"> Max <br> <br>
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem_id" rows="3" cols="50"></textarea>
+        
+        </fieldset>
+        <fieldset id="Quero_produto">
+            <legend>Quero um produto:</legend>
+            <input type="checkbox" name="opi1" id="opi1_id">Gostaria de adquirir um produto quando disponivel. <br> <br>
+            <label for="cor">Cor:</label>
+            <input type="color" name="cor" id="cor_id" value="blue"> <br> <br>
+            <label for="quantidade">Quantidade:</label>
+            <input type="text" name="quant" id="quant_id" size="5"> <br> <br>
+            <label for="preco_total">Preço Toral R$:</label>
+            <input type="text" name="preco_max" id="preco_max_id" size="10">
+        
+        </fieldset>
+        <input type="submit" name="Bsubmit" id="Bsubmit_id" value="Enviar">
+
+
+
+    </form>
+
+</body>
+</html>
